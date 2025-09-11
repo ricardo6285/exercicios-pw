@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #dbd8d8;
+}
+.folha{
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(12, 12, 12);
+ul{
+    margin-top: 25px;
+    list-style: none;
+}
+ul li{
+    padding-top: 15px;
+    a{
+        color: brown;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: burlywood;
+        border: 1px solid black;
+    }
+}
+}
+.vertical-line{
+    margin-top: -380px;
+    margin-left: 12rem;
+    border-left: 1px solid rgb(214, 11, 11);
+    height: 830px;
+}
+.cardapio{
+    height: 800px;
+    margin-top: -820px;
+    margin-left: 200px;
+    overflow: visible scroll;
+    img{
+        margin-top: 60px;
+        margin-right: 20px;
+        height: 35%;
+        width: 35%;
+        display: block;
+        float: right;
+    }
+    .comidas{
+        padding: 1.6rem;
+    }
+}
+.back{
+    margin-top: -30px;
+    margin-left: 200px;
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: burlywood;
+        border: 1px solid black;
+    }
+}
+footer{
+    background-color: rgb(165, 42, 42);
+    border-top: 2px solid #dbd8d8;
+    margin: -2rem 26%;
+    margin-bottom: 2vh;
+    margin-top: 30px;
+    height: 16rem;
+    width: 50%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 10px 10px 10px #131111;
+
+    ul{
+        color: #e9e9e9;
+        font-size: 1.3rem;
+        margin-top: 24rem;
+        color: burlywood;
+        float: center;
+        list-style: none;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    img{
+        margin-top: 5px;
+        margin-right: 10rem;
+        margin-left: 1rem;
+        display: block;
+        float: left;
+        height: 80%;
+        width: 100%;
+    }
+}
