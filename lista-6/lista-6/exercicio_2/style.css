@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #e4e713;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Galeria */
+.galeria {
+  width: 70%;
+  float: left;
+  background: #f5f5f5;
+  padding: 15px;
+}
+.caixa-img {
+  position: relative;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.caixa-img img {
+  width: 100%;
+  display: block;
+}
+.caixa-img:hover {
+  transform: scale(1.05);
+  border-color: #333;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Legenda sobre a imagem */
+.legenda {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  transition: bottom 0.3s;
+}
+.caixa-img:hover .legenda {
+  bottom: 0;
+}
+
+/* Barra lateral */
+aside {
+  width: 25%;
+  float:left;
+  background: #ddd;
+  padding: 15px;
+  border-radius: 50px;
+}
+aside h2 {
+  margin-bottom: 10px;
+}
+aside ul {
+  list-style: square inside;
+}
+
+/* Rodapé */
+footer {
+  clear: both;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Utilitário para limpar floats */
+
